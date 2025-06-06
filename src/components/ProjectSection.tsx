@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "A responsive personal portfolio showcasing projects and skills with a modern, minimalist design.",
-    sourceUrl: "https://github.com/example/portfolio",
+    sourceUrl: "https://github.com//surya-moorthy/portfolio",
     tags: ["React", "Tailwind CSS", "Framer Motion"]
   }
 ];
