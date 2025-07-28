@@ -1,13 +1,13 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');   
 
 @custom-variant dark (&:is(.dark *));
 
 
 :root {
-  background-color: #171717;
-  
-  
+  background-color: #262626;
+
 }
 
 @theme {
@@ -17,6 +17,7 @@
     0px 2px 3px -1px rgba(0, 0, 0, 0.1), 
     0px 1px 0px 0px rgba(25, 28, 33, 0.02),
     0px 0px 0px 1px rgba(25, 28, 33, 0.08);
+    --font-poppins: ['Poppins', 'sans-serif']
 }
 
 .dark {
