@@ -11,7 +11,7 @@ const notes = [
 export default function About() {
     return (
           <div className='flex flex-col min-h-screen bg-neutral-200  justify-center items-center w-full mx-auto'>
-          <h1 className='text-4xl font-bold tracking-tight font-poppins'>
+          <h1 className='text-4xl font-bold tracking-tight font-mono'>
             A brief about myself
           </h1>
             <div className='flex flex-col max-w-2xl mt-10 text-center gap-3 '>
