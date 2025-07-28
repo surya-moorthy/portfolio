@@ -1,11 +1,18 @@
 import type { Metadata } from "next";
-import { Roboto_Mono } from "next/font/google";
+import { Poppins, Roboto_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/navbar";
 
 const robotoMono = Roboto_Mono({
   variable: "--font-roboto-mono",
   subsets: ["greek"],
 });
+
+const poppins = Poppins({
+  variable: "--font-poppins",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,8 +27,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${robotoMono.variable}`}
+        className={`${poppins.variable} antialiased max-w-[80%] mx-auto bg-neutral-200 flex flex-col `}
       >
+        <Navbar/>
         {children}
       </body>
     </html>
